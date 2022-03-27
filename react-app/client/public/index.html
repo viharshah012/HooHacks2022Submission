@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <style>
+      body,h1 {font-family: "Montserrat", sans-serif}
+      img {margin-bottom: -7px}
+      .w3-row-padding img {margin-bottom: 12px}
+    </style>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+
+    <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+        <i class="fa fa-remove"></i>
+      </a>
+      <div class="w3-bar-block w3-center">
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About Us</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">What We Do</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">What We Acheived</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+      </div>
+    </nav>
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+    
+    <!-- Header -->
+    <div class="w3-opacity">
+    <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+    <div class="w3-clear"></div>
+    <header class="w3-center w3-margin-bottom">
+      <h1><b>ReWaste</b></h1>
+      <p><b>Reduce waste by making recycling a fun process!</b></p>
+
+      <form action="/members" method="post">
+        <p class="w3-padding-16"><input type="file" name="picture" class="w3-button w3-black"></input></p>
+        <input class="w3-button w3-black" type="submit" value="Upload"></input>
+      </form>
+  
+    </header>
+    </div>
+    
+    <!-- Photo Grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-third">
+        <img src="https://www.thesprucecrafts.com/thmb/UbL-7P7efR1WQ3Z13-9TKrNry_g=/800x1200/filters:no_upscale():max_bytes(150000):strip_icc()/Item5TinCanPlanters-5b8051a4c9e77c005037455d.jpg" style="width:100%">
+        <img src="https://i.ytimg.com/vi/HkHEJEzMKwc/maxresdefault.jpg" style="width:100%">
+        <img src="https://cdn.diys.com/wp-content/uploads/2019/05/Cardboard-mini-drawers.jpg" style="width:100%">
+        <img src="https://craftsbyamanda.com/wp-content/uploads/2019/09/Fall-Mason-Jars2.jpg" style="width:100%">
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wine-bottle-crafts-message-1574290988.jpg?crop=0.930xw:1.00xh;0.0102xw,0&resize=480:*" style="width:100%">
+        <img src="https://www.architectureartdesigns.com/wp-content/uploads/2019/05/9-12-630x473.jpg" style="width:100%">
+      </div>
+    
+      <div class="w3-third">
+        <img src="https://images-ext-1.discordapp.net/external/6pMNCLcJC5kaIchUz_NiUV6d-In769JhtjUTsh4TDgs/https/preschooltoolkit.com/assets/Uploads/diy-roadster-from-a-cardboard-box-for-pretend-play__ResizedImageWzYwMCw5MDBd.jpg" style="width:100%">
+        <img src="https://images-ext-1.discordapp.net/external/T-IoEX5BspB59rtrx6TEvVE4-M4l-jWG9GLdcoYrX_U/https/craftsyhacks.com/wp-content/uploads/2020/05/1-DIY-Rope-Basket-Out-of-Cardboard-Box.jpg.webp" style="width:100%">
+        <img src="https://images-ext-2.discordapp.net/external/XfU9ii574ihtEKoAXMhj7iULwSkL3TVxGII2VOn-9zY/https/singlegirlsdiy.com/wp-content/uploads/2020/11/DIY-Tin-Can-Organizers.jpg.webp" style="width:100%">
+        <img src="https://images-ext-1.discordapp.net/external/uuJOjmisUFzqJfZPz6OeOMWeDZx5sOOggnSDkAPWsBg/https/simpleasthatblog.com/wp-content/uploads/2014/04/fcfecd3a087db66a9c60c8b56a2d432b.jpg" style="width:100%">
+        <img src="https://images-ext-1.discordapp.net/external/OPXBPPx49SubI8KpPg8zZCTuQ5Kc6TdjvtZ5mavHP5E/https/s34506.pcdn.co/wp-content/uploads/2019/01/snowflake-horizontral1.690.jpg" style="width:100%">
+        <img src="https://www.familyholiday.net/wp-content/uploads/2016/08/Easy-Crafts-Made-With-Recycled-Materials-21.jpg" style="width:100%">
+      </div>
+    
+      <div class="w3-third">
+        <img src="https://images-ext-2.discordapp.net/external/zw6Ef60F6o00bbA8ZDhDN0e1qkhZjhgmX4j6QS7x33c/https/i.ytimg.com/vi/-DNho7s4mDE/maxresdefault.jpg" style="width:100%">
+        <img src="https://2rdt62417igf1un24z27fry3-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/egg-carton-craft-800-_300x300_25.jpg" style="width:100%">
+        <img src="https://images-ext-2.discordapp.net/external/_85OgRmOTah8XVlWa1TNb7i5PMKSunrk18kp65-Cg2M/%3Fq%3Dtbn%3AANd9GcQfq3tPX07XfgKNGGy-qj_K9nKwKJW3DJFOQA%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images" style="width:100%">
+        <img src="https://images-ext-2.discordapp.net/external/KsdqFW2IiEEFR_QbjveItWcpCSHlMvi3JPIucjDZXxg/https/www.onecrazyhouse.com/wp-content/uploads/2017/01/pringles-can-hacks-feature.jpg" style="width:100%">
+        <img src="http://notedlist.com/wp-content/uploads/2015/08/plastic-bottle-recycling-projects/4-plastic-bottle-recycling-projects.jpg" style="width:100%">
+        <img src="https://images-ext-1.discordapp.net/external/Ni36MXX1-0naJmhThIfWp1ruXp-D5J2tsbjs6XCxVi4/%3Fw%3D1200%26ssl%3D1/https/i0.wp.com/diyhsh.com/wp-content/uploads/2018/12/DIY2BCookie2BCutters2B2.jpg" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- End Page Content -->
+    </div>
+    
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      
+    </footer>
+     
+    <script>
+    // Toggle grid padding
+    function myFunction() {
+      var x = document.getElementById("myGrid");
+      if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+      } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+      }
+    }
+    
+    // Open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+      
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,7 @@
+Cardboard,https://www.youtube.com/watch?v=VN9Lezlm3RU&ab_channel=5-MinuteDECOR,https://www.youtube.com/watch?v=ZqWopILSq2o&ab_channel=5-MinuteCraftsPLAY, https://www.youtube.com/watch?v=DiF_DdoGdpU&ab_channel=5-MinuteCraftsFAMILY
+Tin,https://www.youtube.com/watch?v=dQDUQreoOKE&ab_channel=MissDebbieDIY,https://www.youtube.com/watch?v=xoBZUpqVhts&ab_channel=EMMADIY,https://www.diytomake.com/34-diy-easy-tin-can-crafts-projects/
+Aluminum,https://feltmagnet.com/crafts/beer-can-appreciation-day-crafts,https://kidsactivitiesblog.com/68331/aluminum-foil-crafts/,https://www.youtube.com/watch?v=l9mnyFN0iZo&ab_channel=EMMADIY
+Glass bottle,https://www.youtube.com/watch?v=q1l4inkjjPU,https://www.youtube.com/watch?v=U5dJmJT4xJM&ab_channel=5-MinuteCrafts,https://www.youtube.com/watch?v=xsUhn-g7D64&ab_channel=YouandCraft
+Beer bottle,https://renegadebrewing.com/how-to-make-beer-bottle/,https://www.youtube.com/watch?v=oNSOPEyq5cY&ab_channel=SKCRAFTS,https://diyprojects.com/projects-uses-for-beer-bottles/
+Plastic bottle,https://www.youtube.com/watch?v=E19QrSIWfQU&ab_channel=5-MinuteCrafts,https://www.youtube.com/watch?v=h0WgF6U8MoQ&ab_channel=FunScience,https://www.youtube.com/watch?v=R6xocYNyGXE&ab_channel=MissDebbieDIY
+Paper product,https://www.youtube.com/watch?v=BlP3s7ytsDw&ab_channel=5-MinuteCraftsTEENS,https://www.youtube.com/watch?v=Atxy2r_zgZI&ab_channel=5-MinuteDECOR,https://www.youtube.com/watch?v=pCak3cE1M_c,https://www.youtube.com/watch?v=nKGhIRpVmew&ab_channel=ThePoshPaperLady
